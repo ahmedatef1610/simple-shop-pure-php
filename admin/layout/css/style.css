@@ -1,0 +1,73 @@
+/* body{
+    background-color: #333;
+    color: #fff;
+} */
+
+.asterisk {
+    position: absolute;
+    right: 20px;
+    top: -6px;
+    font-size: 30px;
+    color: red;
+}
+
+.show-pass {
+    position: absolute;
+    top: 4px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.stat p.card-text {
+    font-size: 60px;
+}
+
+.stat p.card-text a {
+    /* text-decoration: none;
+    color: inherit; */
+}
+.option span{
+    cursor: pointer;
+}
+.option span.active{
+    color: #f80;
+}
+
+div.categories div.card-body .cat:last-of-type~div {
+    display: none !important;
+}
+
+.categories .cat {
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.categories .cat h5 {
+    cursor: pointer;
+}
+
+.categories .cat:hover {
+    background-color: #555;
+
+}
+
+.categories .cat:hover .hidden-buttons {
+    right: 15px;
+
+}
+
+.categories .cat .hidden-buttons {
+    position: absolute;
+    top: 15px;
+    right: -150px;
+    transition: all 0.5s ease-in-out;
+}
+
+.categories .cat .hidden-buttons a {
+    margin-right: 5px;
+}
+
+.toggle-info{
+    cursor: pointer;
+}

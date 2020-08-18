@@ -1,0 +1,44 @@
+/* body{
+    background-color: #333;
+    color: #fff;
+} */
+
+.asterisk {
+    position: absolute;
+    right: 20px;
+    top: -6px;
+    font-size: 30px;
+    color: red;
+}
+
+.show-pass {
+    position: absolute;
+    top: 4px;
+    right: 20px;
+    cursor: pointer;
+}
+
+/********************************/
+.login-page h1 {
+    color: #c0c0c0;
+
+}
+
+.login-page h1 span {
+    cursor: pointer;
+
+}
+
+.login-page h1 [data-class="login"].selected {
+    color: #2B4764;
+}
+
+.login-page h1 [data-class=signup].selected {
+    color: #009670;
+}
+
+.login-page .signup {
+    display: none;
+}
+
+/********************************/
