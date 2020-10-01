@@ -13,7 +13,7 @@ password : 123456
 ## For Login admin page
 
 ``` 
-emial : test@test.com
+email : test@test.com
 password : 123456
 ```
 
