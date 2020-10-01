@@ -10,7 +10,7 @@ this php project make without any php frameworks and there two path: <br>
 username : ahmedatef1610
 password : 123456
 ```
-## For Login admin
+## For Login admin page
 
 ``` 
 emial : test@test.com
